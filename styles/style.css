@@ -11,23 +11,7 @@
   position: relative;
 }
 
-.header {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  padding: 0;
-  background-color: #f2f2f2;
-  overflow: hidden;
-}
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
 
 .logo {
   width: 228px;
@@ -41,46 +25,6 @@
   position: absolute;
   top: 30px;
   left: 64px;    
-}
-
-.header__title {
-  font-size: 102px;
-  line-height: 96px;
-  font-weight: 700;
-  margin: 0;
-  max-width: 703px;
-  margin-left: 64px;
-  z-index: 4;
-}
-
-.header__subtitle {
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-  width: 388px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  margin: 0;
-  z-index: 3;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
 }
 
 .techniques {
@@ -145,7 +89,6 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-
 }
 
 .video__iframe:first-child {
@@ -424,11 +367,11 @@
 }
 
 .rotate {
-  animation: rot 20s infinite;
+  animation: rotate-360 20s infinite;
   animation-timing-function: linear; 
 }
 
-@keyframes rot {
+@keyframes rotate-360 {
   0% {
     transform: rotate(0);
   }
