@@ -7,6 +7,10 @@
   color: #000;  
 }
 
+.content {
+  position: relative;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -17,6 +21,7 @@
   max-height: 756px;
   padding: 0;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .header__link {
@@ -76,6 +81,83 @@
   position: absolute;
   top: 64px;
   right: 0;
+}
+
+.techniques {
+  width: 80%;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+}
+
+.cards__item {
+  margin: 0;
+  width: 240px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cards__description {
+  margin: 0;
+  padding-top: 16px;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;  
+}
+
+.video {
+  position: relative;
+  padding-top: 100px;
+  z-index: 2;
+}
+
+.video__iframes {
+  padding-top: 50px;
+  margin: 0 auto;
+  font-size: 0;
+  text-align: center;
+  
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+
+}
+
+.video__iframe:first-child {
+  margin-right: 20px;
+}
+
+.oakley {
+  position: relative;
+  top: -30px;
+  padding-top: 60px;
+  margin-bottom: -30px;
+  background-color: #f2f2f2;
 }
 
 .two-columns {
@@ -190,7 +272,7 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  z-index: 3;    
+  z-index: 2;    
 }
 
 .feynman__link {
@@ -202,7 +284,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-  z-index: 2;  
+  z-index: 3;  
 }
 
 .feynman__photo {
@@ -339,4 +421,18 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.rotate {
+  animation: rot 20s infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
