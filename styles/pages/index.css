@@ -51,6 +51,10 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
@@ -92,6 +96,8 @@
 
 
 @import url(../blocks/rotation/rotation.css);
+
+@import url(../blocks/link-animation/link-animation.css);
 
 
 
