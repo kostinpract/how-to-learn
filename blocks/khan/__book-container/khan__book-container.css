@@ -1,6 +1,7 @@
 .khan__book-container {
-    padding-top: 68px;
-    display: flex;
-    align-items: flex-start; /* без этого криво работает ролловер ссылки */
-    column-gap: 48px;
+  padding-top: 68px;
+  display: flex;
+  align-items: flex-start;
+  /* без этого криво работает ролловер ссылки */
+  column-gap: 48px;
 }
