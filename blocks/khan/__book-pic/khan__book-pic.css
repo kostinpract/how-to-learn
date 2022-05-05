@@ -1,6 +1,11 @@
 .khan__book-pic {
   width: 620px;
   height: 608px;
+  /* попросили на ревью заменить на img, поэтому использовал вместо фона object-fit для картинки */
+  object-fit: cover;
+  object-position: right top;
+  /*
   background-image: url(../../../images/khan-book.jpg);
   background-size: cover;
+  */
 }
